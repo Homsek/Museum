@@ -103,6 +103,7 @@ body {
   width: 36px;
   height: 24px;
   padding: 0;
+  z-index: 4;
   background: url(../img/icons/m-menu.png) center;
 }
 
