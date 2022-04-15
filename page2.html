@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Радио</title>
+    <link rel="stylesheet" href="scss/style__page2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrapper">
+<!-- header -->
+        <header class="header">
+            <div class="header__border">
+                <div class="header__item">
+                    <div class="header__buttons">
+                        <div class="header__home">
+                            <a href="index.html" class="header__home">
+                                Главная
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__item">
+                    <div class="header__buttons">
+                        <a class="menu__icon" onclick="showSideMenu()"></a>
+                        <div class="header__button">
+                            <a href="#one" class="header__button">
+                                Приёмник Вещательный
+                            </a>
+                        </div>
+                        <div class="header__button">
+                            <a href="#two" class="header__button">
+                                Радиоприёмник "Зорька"
+                            </a>
+                        </div>
+                        <div class="header__button">
+                            <a href="#three" class="header__button">
+                                Радиоприёмник "Юность"           
+                            </a>
+                        </div>
+                        <div class="header__button">
+                            <a href="#four" class="header__button">
+                                Военный коммутатор П-194М          
+                            </a>
+                        </div>
+                        <div class="header__button">
+                            <a href="#five" class="header__button">
+                                Радиостанция Р-105          
+                            </a>
+                        </div>
+                        <div class="header__button">
+                            <a href="#six" class="header__button">
+                                Военный радиоприемник Р-250М2        
+                            </a>
+                        </div>
+                    </div>
+                    <div id="side-menu" class="side-nav" onclick="hideSideMenu()">
+                        <a class="close">&times;</a>
+                        <a href="#one">Приёмник Вещательный</a>
+                        <a href="#two">Радиоприёмник "Зорька"</a>
+                        <a href="#three">Радиоприёмник "Юность"</a>
+                        <a href="#four">Военный коммутатор П-194М</a>
+                        <a href="#five">Радиостанция Р-105</a>
+                        <a href="#six">Военный радиоприемник Р-250М2</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="block" id="one">
+                <div class="block__border _content">
+                    <div class="block__img">
+                        <img src="img/window__icons/radio/19.png" alt="picture" class="block__img">
+                    </div>
+                    <div class="block__column">
+                        <div class="block__title">
+                            Приёмник Вещательный
+                        </div>
+                        <div class="block__text">
+                            Радиоприёмник, предназначенный для приёма программ звукового вещания и их акустического воспроизведения. Позволяет принимать передаваемые радиовещательными станциями амплитудно-модулированные сигналы в диапазонах длинных волн — 150—405 кгц (2000—740,7 м), средних волн — 525—1605 кгц (571,4—186,9 м) и коротких волн — 3,95—12,1 Мгц (75,9—24,8 м).
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="two">
+                <div class="block__border _content">
+                    <div class="block__column">
+                        <div class="block__title">
+                            Радиоприёмник "Зорька"
+                        </div>
+                        <div class="block__text">
+                            Радиоприёмник "Зорька" создан на базе набора-конструктора и приёмника "СВЕРЧОК" и выпускался как собранным, так и радиоконструктором. Собранный на заводе радиоприёмник "Зорька" имеет схему прямого усиления сигнала. Работает на диапазонах от длинных волн до коротких.
+                        </div>
+                    </div>
+                    <div class="block__img">
+                        <img src="img/window__icons/radio/12.jpg" alt="picture" class="block__img">
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="three">
+                <div class="block__border _content">
+                    <div class="block__img">
+                        <img src="img/window__icons/radio/13.jpg" alt="picture" class="block__img">
+                    </div>
+                    <div class="block__column">
+                        <div class="block__title">
+                            Радиоприёмник "Юность"
+                        </div>
+                        <div class="block__text">
+                            Рефлексный радиоприёмник прямого усиления 2-V-3 для диапазона СВ (200—550 метров) на 4 германиевых транзисторах. Выпускался Первым московским приборостроительным заводом с середины 1960-х до начала 1990-х годов. Радиоконструктор «Юность» представлял собой корпус радиоприёмника, печатную плату, набор радиоэлементов, инструкцию по сборке. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="four">
+                <div class="block__border _content">
+                    <div class="block__column">
+                        <div class="block__title">
+                            Военный коммутатор П-194М
+                        </div>
+                        <div class="block__text">
+                            Полевой телефонный коммутатор ручного обслуживания средней ёмкости системы. Предназначен для обеспечения внутренней телефонной связи между абонентами на пульте управления, а также для связи по соединительным линиям. Коммутатор с индукторным вызовом и шнуровой коммутацией абонентов обладает ёмкостью на 40 номеров. Коммутатор П-194М рассчитан на включение 40 абонентских линий.
+                        </div>
+                    </div>
+                    <div class="block__img">
+                        <img src="img/window__icons/radio/15.jpg" alt="picture" class="block__img">
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="five">
+                <div class="block__border _content">
+                    <div class="block__img">
+                        <img src="img/window__icons/radio/11.jpg" alt="picture" class="block__img">
+                    </div>
+                    <div class="block__column">
+                        <div class="block__title">
+                            Радиостанция Р-105
+                        </div>
+                        <div class="block__text">
+                            Советская войсковая носимая ультракоротковолновая радиостанция. На вооружении с 1967 года. Предусмотрено дистанционное управление по кабелю длиной до 500 м и работа в качестве ретранслятора в радиосетях. Диапазон частот: 36,0-46,1 МГц
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="six">
+                <div class="block__border _content">
+                    <div class="block__column">
+                        <div class="block__title">
+                            Военный радиоприемник Р-250М2
+                        </div>
+                        <div class="block__text">
+                            Советский коротковолновый радиоприёмник для дальней связи, радиоразведки и пеленгации, военного и гражданского назначения, выпускавшийся в различных вариантах с 1949 до 1980 г. Один из самых совершенных в своё время образцов аппаратуры такого класса. Широко применялся также радиолюбителями-коротковолновиками. Рабочий диапазон 1,5—25,5 МГц (200—11,75 м) разбит на 12 поддиапазонов шириной по 2 МГц.
+                        </div>
+                    </div>
+                    <div class="block__img">
+                        <img src="img/window__icons/radio/14.jpg" alt="picture" class="block__img">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+		function showSideMenu() {
+			document.getElementById('side-menu').style.width = '100vw';
+		}
+		function hideSideMenu() {
+			document.getElementById('side-menu').style.width = '0';
+		}
+	</script>
+    <script>
+        // ***************** ПЛАВНЫЙ СКРОЛЛ ДО БЛОКА ***************** //
+
+
+        // Найти все ссылки начинающиеся на #
+        const anchors = document.querySelectorAll('a[href^="#"]')
+
+        // Цикл по всем ссылкам
+        for(let anchor of anchors) {
+        anchor.addEventListener("click", function(e) {
+            e.preventDefault() // Предотвратить стандартное поведение ссылок
+            // Атрибут href у ссылки, если его нет то перейти к body (наверх не плавно)
+            const goto = anchor.hasAttribute('href') ? anchor.getAttribute('href') : 'body'
+            // Плавная прокрутка до элемента с id = href у ссылки
+            document.querySelector(goto).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+            })
+        })
+        }
+    </script>
+</body>
+</html>
