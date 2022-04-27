@@ -103,7 +103,6 @@ body {
   width: 36px;
   height: 24px;
   padding: 0;
-  z-index: 4;
   background: url(../img/icons/m-menu.png) center;
 }
 
@@ -665,6 +664,20 @@ body {
   .banner__button:hover {
     -webkit-transform: scale(1.08);
             transform: scale(1.08);
+  }
+}
+
+@media (min-width: 769px) {
+  .ya-share2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .ya-share2 {
+    display: block;
+    text-align: center;
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
